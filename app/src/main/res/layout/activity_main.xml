@@ -478,7 +478,7 @@
                 <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="2dp"
+                    android:paddingLeft="3dp"
                     android:paddingVertical="4dp"
                     android:orientation="vertical">
                     <TableRow>
