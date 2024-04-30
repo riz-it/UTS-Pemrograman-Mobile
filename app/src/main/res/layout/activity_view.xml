@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_200"
+    tools:context=".ViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_200"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:src="@drawable/baseline_keyboard_arrow_left_24"
+                />
+
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="30dp"
+           android:background="@color/grey_200"
+           android:gravity="center"
+           android:orientation="vertical">
+           <ImageView
+
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_gravity="center"
+               android:src="@drawable/profile"/>
+           <TextView
+               android:layout_marginTop="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Nama Lengkap."
+               android:id="@+id/tv_vNama"
+               android:textAlignment="center"
+               android:textColor="@color/grey_600"
+               android:fontFamily="@font/hkgrotesksemibold"
+               android:textSize="18dp"/>
+           <TextView
+               android:layout_marginTop="6dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Email."
+               android:id="@+id/tv_vEmail"
+               android:textAlignment="center"
+               android:textColor="@color/grey_500"
+               android:fontFamily="@font/hkgrotesksemibold"
+               android:textSize="14dp"/>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="14dp"
+            android:gravity="center"
+            android:background="@drawable/profile_background"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Induk Kependudukan"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hkgroteskbold"
+                    android:textSize="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="0dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/baseline_credit_card_24"/>
+                    <TextView
+                        android:id="@+id/tv_vNik"
+                        android:layout_width="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="7dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/hkgroteskmedium"
+                        android:drawablePadding="10dp"
+                        android:text="NIK"
+                        android:textSize="14dp"
+                        android:background="@null"
+                        android:textColorHint="@color/grey_400"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tempat, Tanggal Lahir"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hkgroteskbold"
+                    android:textSize="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/baseline_calendar_today_24"/>
+                    <TextView
+                        android:id="@+id/tv_vTglLahir"
+                        android:layout_width="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="7dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/hkgroteskmedium"
+                        android:drawablePadding="10dp"
+                        android:text="22/22/2222"
+                        android:textSize="14dp"
+                        android:background="@null"
+                        android:textColorHint="@color/grey_400"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Usia"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hkgroteskbold"
+                    android:textSize="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_vUmur"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="7dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/hkgroteskmedium"
+                        android:drawablePadding="10dp"
+                        android:text="xx Tahun"
+                        android:textSize="14dp"
+                        android:background="@null"
+                        android:textColorHint="@color/grey_400"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Lengkap"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hkgroteskbold"
+                    android:textSize="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_vAlamat"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="7dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/hkgroteskmedium"
+                        android:drawablePadding="10dp"
+                        android:text="Alamat lengkap"
+                        android:textSize="14dp"
+                        android:background="@null"
+                        android:textColorHint="@color/grey_400"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kelamin / Kewarganegaraan"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hkgroteskbold"
+                    android:textSize="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_vGenderKewarganegaraan"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="7dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/hkgroteskmedium"
+                        android:drawablePadding="10dp"
+                        android:text="Pria / WNI"
+                        android:textSize="14dp"
+                        android:background="@null"
+                        android:textColorHint="@color/grey_400"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kompetensi Keahlian"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hkgroteskbold"
+                    android:textSize="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_vKompetensi"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="7dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/hkgroteskmedium"
+                        android:drawablePadding="10dp"
+                        android:text="Kompetensi keahlian"
+                        android:textSize="14dp"
+                        android:background="@null"
+                        android:textColorHint="@color/grey_400"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="30dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hkgroteskmedium"
+                android:drawablePadding="10dp"
+                android:text="©Mochamad Rizal Fachrudin - 21083000014"
+                android:textSize="10dp"
+                android:background="@null"
+                android:textColorHint="@color/grey_400"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

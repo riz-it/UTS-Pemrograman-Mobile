@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:id="@+id/logo"
+                android:src="@drawable/unmer1"/>
+            <ProgressBar
+                android:layout_gravity="center|center_horizontal"
+                android:id="@+id/progressBar"
+                android:layout_marginTop="50dp"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/blue_600"/>
+        </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hkgrotesklight"
+                android:text="©Mochamad Rizal Fachrudin - 21083000014"
+                android:textAlignment="center"
+                android:textColor="@color/grey_600"
+                android:textSize="12dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
