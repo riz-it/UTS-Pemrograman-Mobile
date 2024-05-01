@@ -18,4 +18,4 @@ Aplikasi ini dibuat untuk memenuhi tugas project Ujian Tengah Semester mata kuli
 ## Dibuat Oleh
 - Nama: Mochamad Rizal Fachrudin
 - NIM: 21083000014
-- Class: 6A
+- Kelas: 6A
