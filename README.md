@@ -13,7 +13,7 @@ Aplikasi ini dibuat untuk memenuhi tugas project Ujian Tengah Semester mata kuli
 <!-- table of two row and three column -->
 | Loading | Formulir | Profil |
 | --- | --- | --- |
-| ![Splash Screen](https://github.com/riz-it/UTS-Pemrograman-Mobile/assets/93028911/2d3272a1-5dc2-42ad-8930-370f0953c140) | ![Main Screen](https://github.com/riz-it/UTS-Pemrograman-Mobile/assets/93028911/931fe16b-fa50-4c41-a1cf-f333551b71fe) | ![Profile Screen](https://github.com/riz-it/UTS-Pemrograman-Mobile/assets/93028911/d9bb5a5e-8299-4ebd-801b-3c131837f144) |
+| ![Splash Screen](https://github.com/riz-it/UTS-Pemrograman-Mobile/assets/93028911/2d3272a1-5dc2-42ad-8930-370f0953c140) | ![Main Screen](https://github.com/riz-it/UTS-Pemrograman-Mobile/assets/93028911/245a249d-68c0-4611-9658-782ebcb36e16) | ![Profile Screen](https://github.com/riz-it/UTS-Pemrograman-Mobile/assets/93028911/2ba03431-89f8-4145-95a9-89dfa90ff731) |
 
 ## Dibuat Oleh
 - Nama: Mochamad Rizal Fachrudin
